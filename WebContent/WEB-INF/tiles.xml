@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC  
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"  
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">  
+<tiles-definitions>  
+
+    <definition name="base.definition"  template="/WEB-INF/tiles/layout.jsp">  
+        <put-attribute name="title" value="" />  
+        <put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />  
+        <put-attribute name="menu" value="/WEB-INF/tiles/menu.jsp" />  
+        <put-attribute name="body" value="" />  
+        <put-attribute name="footer" value="/WEB-INF/tiles/footer.jsp" />  
+    </definition>  
+    <definition name="testSignup" extends="base.definition">  
+        <put-attribute name="title" value="testSignup" />  
+        <put-attribute name="body" value="/WEB-INF/pages/testSignup.jsp"/>  
+        </definition>
+         <definition name="viewTest" extends="base.definition">  
+        <put-attribute name="title" value="viewTest" />  
+        <put-attribute name="body" value="/WEB-INF/pages/viewTest.jsp"/>  
+ </definition>
+  <definition name="updateTest" extends="base.definition">  
+        <put-attribute name="title" value="updateTest" />  
+        <put-attribute name="body" value="/WEB-INF/pages/updateTest.jsp"/>  
+ </definition>
+  <definition name="deleteTest" extends="base.definition">  
+        <put-attribute name="title" value="deleteTest" />  
+        <put-attribute name="body" value="/WEB-INF/pages/deleteTest.jsp"/>  
+ </definition>
+ <definition name="dashBoard" extends="base.definition">  
+        <put-attribute name="title" value="dashBoard" />  
+        <put-attribute name="body" value="/WEB-INF/pages/dashBoard.jsp"/>  
+ </definition>
+  <definition name="sectorSignUp" extends="base.definition">  
+        <put-attribute name="title" value="sectorSignUp" />  
+        <put-attribute name="body" value="/WEB-INF/pages/sectorSignUp.jsp"/>  
+ </definition>
+   <definition name="viewSector" extends="base.definition">  
+        <put-attribute name="title" value="viewSector" />  
+        <put-attribute name="body" value="/WEB-INF/pages/viewSector.jsp"/>  
+ </definition>
+    <definition name="deleteSector" extends="base.definition">  
+        <put-attribute name="title" value="deleteSector" />  
+        <put-attribute name="body" value="/WEB-INF/pages/deleteSector.jsp"/>  
+ </definition>
+    <definition name="updateSectors" extends="base.definition">  
+        <put-attribute name="title" value="updateSector" />  
+        <put-attribute name="body" value="/WEB-INF/pages/updateSector.jsp"/>  
+ </definition>
+ <definition name="sectionSignUp" extends="base.definition">  
+        <put-attribute name="title" value="sectionSignUp" />  
+        <put-attribute name="body" value="/WEB-INF/pages/sectionSignUp.jsp"/>  
+ </definition>
+ <definition name="viewSection" extends="base.definition">  
+        <put-attribute name="title" value="viewSection" />  
+        <put-attribute name="body" value="/WEB-INF/pages/viewSection.jsp"/>  
+ </definition>
+  <definition name="updateSection" extends="base.definition">  
+        <put-attribute name="title" value="viewSection" />  
+        <put-attribute name="body" value="/WEB-INF/pages/updateSection.jsp"/>  
+ </definition>
+  <definition name="deleteSection" extends="base.definition">  
+        <put-attribute name="title" value="viewSection" />  
+        <put-attribute name="body" value="/WEB-INF/pages/deleteSection.jsp"/>  
+ </definition>
+ 
+ <definition name="subSectionSignUp" extends="base.definition">  
+        <put-attribute name="title" value="subSectionSignUp" />  
+        <put-attribute name="body" value="/WEB-INF/pages/subSectionSignUp.jsp"/>  
+ </definition>
+ <definition name="updateSubSection" extends="base.definition">  
+        <put-attribute name="title" value="updateSubSection" />  
+        <put-attribute name="body" value="/WEB-INF/pages/updateSubSection.jsp"/>  
+ </definition>
+ 
+ <definition name="deleteSubSection" extends="base.definition">  
+        <put-attribute name="title" value="deleteSubSection" />  
+        <put-attribute name="body" value="/WEB-INF/pages/deleteSubSection.jsp"/>  
+ </definition>
+ 
+ <definition name="viewSubSection" extends="base.definition">  
+        <put-attribute name="title" value="viewSubSection" />  
+        <put-attribute name="body" value="/WEB-INF/pages/viewSubSection.jsp"/>  
+ </definition>
+  <definition name="questionSignUp" extends="base.definition">  
+        <put-attribute name="title" value="questionSignUp" />  
+        <put-attribute name="body" value="/WEB-INF/pages/questionSignUp.jsp"/>  
+ </definition>
+  <definition name="viewQuestion" extends="base.definition">  
+        <put-attribute name="title" value="viewQuestion" />  
+        <put-attribute name="body" value="/WEB-INF/pages/viewQuestion.jsp"/>  
+ </definition>
+  <definition name="updateQuestion" extends="base.definition">  
+        <put-attribute name="title" value="updateQuestion" />  
+        <put-attribute name="body" value="/WEB-INF/pages/updateQuestion.jsp"/>  
+ </definition>
+  <definition name="deleteQuestion" extends="base.definition">  
+        <put-attribute name="title" value="deleteQuestion" />  
+        <put-attribute name="body" value="/WEB-INF/pages/deleteQuestion.jsp"/>  
+ </definition>
+   <definition name="insertTest" extends="base.definition">  
+        <put-attribute name="title" value="deleteQuestion" />  
+        <put-attribute name="body" value="/WEB-INF/pages/test.jsp"/>  
+ </definition>
+    </tiles-definitions> 
